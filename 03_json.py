@@ -27,4 +27,4 @@ def buscar_sensor(id_sensor: str) -> tuple[Response, int]:
     return jsonify({"error": "Sensor no encontrado"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True
+    app.run(debug=True)
